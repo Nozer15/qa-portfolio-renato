@@ -10,7 +10,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: saucedemo-test
+        working-directory: saucedemo-test/03-automation
 
     steps:
       - name: Checkout repository
@@ -20,9 +20,11 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 18
+          cache: 'npm'
+          cache-dependency-path: 'saucedemo-test/03-automation/package-lock.json'
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Run Cypress tests
-        run: npx cypress run
+        run: npm test
