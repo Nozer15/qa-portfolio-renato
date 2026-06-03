@@ -1,0 +1,24 @@
+{
+  "name": "qa-portfolio-renato",
+  "version": "1.0.0",
+  "description": "Este repositório contém meu portfólio de Quality Assurance (QA), com foco em testes manuais, testes exploratórios e automação de testes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nozer15/qa-portfolio-renato.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Nozer15/qa-portfolio-renato/issues"
+  },
+  "homepage": "https://github.com/Nozer15/qa-portfolio-renato#readme",
+  "devDependencies": {
+    "cypress": "^15.16.0"
+  }
+}
