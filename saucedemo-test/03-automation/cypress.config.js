@@ -7,5 +7,7 @@ module.exports = defineConfig({
     supportFile: 'cypress/support/e2e.js',
     videosFolder: 'cypress/videos',
     video: true,
+    screenshotsFolder: 'cypress/screenshots',
+    screenshotOnRunFailure: true,
   }
 })
