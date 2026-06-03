@@ -19,7 +19,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 20
           cache: 'npm'
           cache-dependency-path: 'saucedemo-test/03-automation/package-lock.json'
 
@@ -27,4 +27,4 @@ jobs:
         run: npm ci
 
       - name: Run Cypress tests
-        run: npm test
+        run: npm test -- --headless --browser chrome
