@@ -12,7 +12,7 @@ Demonstrar habilidades práticas em QA, incluindo:
 - Execução de testes funcionais
 - Testes exploratórios (exploração de cenários fora do fluxo esperado)
 - Documentação de bugs e evidências
-- Automação de testes (em desenvolvimento)
+- Automação de testes com Cypress
 
 ---
 
@@ -25,23 +25,24 @@ Demonstrar habilidades práticas em QA, incluindo:
 
 ## 📂 Estrutura do projeto
 
-
+```
 qa-portfolio-renato/
 │
 ├── 01-manual-testing/
-│ ├── test-plan.md
-│ ├── test-cases.md
-│ ├── test-execution.md
-│ └── evidence/
+│   ├── test-plan.md
+│   ├── test-cases.md
+│   ├── test-execution.md
+│   └── Evidence/
 │
 ├── 02-exploratory-testing/
-│ ├── test-cases.md
-│ ├── test-execution.md
-│ └── evidence/
+│   ├── test-cases.md
+│   ├── test-execution.md
+│   └── Evidence/
 │
-└── 03-automation/
-└── (Cypress tests em desenvolvimento)
-
+└── saucedemo-test/
+    └── cypress/
+        └── e2e/
+```
 
 ---
 
@@ -61,9 +62,7 @@ qa-portfolio-renato/
 - VS Code
 - Git / GitHub
 - Markdown
-- Cypress (em desenvolvimento)
-- Testes manuais
-- Testes exploratórios
+- Cypress
 
 ---
 
@@ -95,7 +94,6 @@ Em constante evolução com foco em:
 
 - Melhoria da documentação de QA
 - Aprofundamento em testes exploratórios
-- Implementação de testes automatizados com Cypress
 - Boas práticas de versionamento com Git
 
 ---
